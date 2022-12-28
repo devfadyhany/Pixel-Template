@@ -1,0 +1,164 @@
+body {
+    scroll-behavior: smooth;
+}
+
+.navoff {
+    height: 100px;
+    background-color: transparent;
+    transition: 1s;
+}
+
+.navon {
+    height: 100px;
+    background-color: #688bfe;
+    transition: 1s;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar a:hover {
+    color: rgb(190, 45, 19);
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 200px;
+    /* background-color: red; */
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.media {
+    display: flex;
+    flex-direction: row;
+    /* background-color: aqua; */
+    width: 300px;
+    height: 50px;
+    font-size: 32px;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    right: 50px;
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+.carousel {
+    width: 100%;
+    height: 800px;
+    /* overflow: hidden; */
+    scroll-behavior: smooth;
+}
+
+.carousel img {
+    width: 100%;
+    height: 800px;
+}
+
+.shade {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.carousel-caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    position: absolute;
+    top: 300px;
+}
+
+.carousel-caption a {
+    text-decoration: none;
+    color: white;
+    font-size: 72px;
+}
+
+.carousel-caption a:hover {
+    text-decoration: none;
+    color: rgb(190, 45, 19);
+    font-size: 72px;
+}
+
+.sit{
+    width: 100%;
+    height: 300px;
+    background-color: #688bfe;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    scroll-behavior: smooth;
+}
+
+.sit h2{
+    position: relative;
+    top: 70px;
+    left: -430px;
+    color: white;
+}
+
+.sit-form {
+    width: 100%;
+    height: 75%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control {
+    display: inline;
+    width: 60%;
+    height: 50px;
+    margin-right: 150px;
+}
+
+.sit button{
+    height: 50px;
+    background-color: rgb(255, 123, 0);
+}
+
+.error {
+    border: 3px solid red;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 0px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgb(255, 123, 0); /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    transition: 1s;
+}
+  
+#myBtn:hover {
+    background-color: rgb(190, 45, 19); /* Add a dark-grey background on hover */
+    transition: 0.5s;
+}
